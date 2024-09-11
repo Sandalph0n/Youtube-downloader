@@ -1,4 +1,4 @@
-from pytube import YouTube,Playlist
+from pytubefix import YouTube,Playlist
 import customtkinter as ctk
 from PIL import Image, ImageTk
 from requests import get
@@ -7,6 +7,7 @@ import webbrowser
 from threading import Thread
 from CTkMessagebox import CTkMessagebox
 from logo import path
+
 #khi ta import file logo.py, mặc định code trong file đó sẽ lập tức được chạy
 #file logo chứa dữ liệu về ảnh ytdownloaderlogo.ico, và file ảnh sẽ được tạo, viết dữ liệu ra
 #file logo ở %temp%
